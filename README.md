@@ -1,8 +1,9 @@
 # Sales-Analysis
-📊 Regional Sales Analysis
+##Regional Sales Analysis
+
 This project analyzes 5 years of historical regional sales data using Exploratory Data Analysis (EDA) and presents insights through an interactive Power BI dashboard. The goal is to uncover trends, evaluate product/channel performance, and support strategic business decisions.
 
-🧩 Problem Statement
+🧩 #Problem Statement
 Sales and profit performance varies across U.S. regions, with limited visibility into:
 
 Seasonal fluctuations
@@ -13,10 +14,10 @@ Profitability by sales channels
 
 Goal: Use data to identify growth opportunities and improve regional sales strategy.
 
-🔍 Approach
+🔍 #Approach
 The solution is divided into two phases:
 
-EDA using Python
+#EDA using Python
 
 Clean and transform raw sales data
 
@@ -24,13 +25,13 @@ Derive key metrics (e.g., profit, margin)
 
 Visualize trends, correlations, and patterns
 
-Dashboard in Power BI
+#Dashboard in Power BI
 
 Enable slicing/filtering by product, region, time, and channel
 
 Empower business users with real-time insights
 
-🧪 Data Overview
+🧪# Data Overview
 Multiple datasets: Sales, Products, Customers, Budgets, Regions
 
 Merged into a clean, structured dataset with key features:
@@ -43,18 +44,18 @@ Geography: state_name, us_region, lat, lon
 
 Planning: budget (2017)
 
-📈 Key Insights
-📆 Seasonality: Revenue peaks in May–June; lowest in January
+📈 ##Key Insights
+📆 #Seasonality: Revenue peaks in May–June; lowest in January
 
-🛍️ Products: 25 & 26 dominate sales (~25% of total)
+🛍️ #Products: 25 & 26 dominate sales (~25% of total)
 
-🛒 Channels: Wholesale = 54.1% of revenue; Export = highest margin
+🛒 #Channels: Wholesale = 54.1% of revenue; Export = highest margin
 
-🌎 Geography: California leads in revenue; West region outperforms others
+🌎# Geography: California leads in revenue; West region outperforms others
 
-💰 Customers: Top customers contribute most revenue with >35% margins
+💰# Customers: Top customers contribute most revenue with >35% margins
 
-✅ Recommendations
+✅ ##Recommendations
 Offer seasonal promotions in April & January
 
 Focus on high-performing SKUs; re-evaluate low-margin ones
@@ -65,14 +66,14 @@ Replicate California’s success in other regions
 
 Monitor margins; analyze discount-heavy orders
 
-🧰 Tech Stack
+🧰 #Tech Stack
 Python (Pandas, Matplotlib, Seaborn) for EDA
 
 Power BI for interactive dashboards
 
 Excel for initial data storage and structure
 
-📂 Files Included
+📂 ##Files Included
 File	Description
 EDA_Regional_Sales_Analysis.ipynb	Jupyter notebook with EDA steps
 Regional Sales Dataset.xlsx	Raw and structured dataset
@@ -80,7 +81,7 @@ SALES REPORT.pbix	Final Power BI dashboard
 PPT - Regional Sales Analysis.pptx	Presentation summarizing findings
 Sales_data(EDA Exported).csv	Processed dataset used for dashboard
 
-🖥️ Dashboard Preview
+🖥️ ##Dashboard Preview
 Pages:
 
 Performance Summary
@@ -89,7 +90,7 @@ Customer Segmentation
 
 Revenue Scenarios
 
-🏁 Conclusion
+🏁 ##Conclusion
 This end-to-end analysis empowered stakeholders to:
 
 Identify trends and anomalies
@@ -98,5 +99,5 @@ Make informed strategic decisions
 
 Onboard new datasets for future use
 
-✅ This project demonstrates strong skills in data analysis, visualization, business storytelling, and dashboarding.
+✅ ##This project demonstrates strong skills in data analysis, visualization, business storytelling, and dashboarding.
 
